@@ -8,7 +8,7 @@ resources:
 - prometheus.yaml
 - prometheus-job-exporter.yaml
 - alertmanager.yaml
-- dashboards
+- https://gitlab.corp.pingidentity.com/ping-cloud-private-tenant/ping-cloud-dashboards/Grafana
 
 configMapGenerator:
 - name: prometheus-environment-variables
