@@ -8,7 +8,7 @@ resources:
 - prometheus.yaml
 - prometheus-job-exporter.yaml
 - alertmanager.yaml
-- https://github.com/Rapiki-ping/ping-cloud-dashboards/Grafana
+- https://github.com/Rapiki-ping/ping-cloud-dashboards/Grafana?ref=main
 #- https://gitlab.corp.pingidentity.com/ping-cloud-private-tenant/ping-cloud-dashboards/Grafana
 
 configMapGenerator:
