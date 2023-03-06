@@ -1,4 +1,5 @@
----
+# Deletes pgo alerting. Should be commented in primary region.
+
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
