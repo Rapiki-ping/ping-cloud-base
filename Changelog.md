@@ -29,6 +29,7 @@
 - Update cluster tools to latest version: metrics-server v0.6.2
 - Update all PodDisruptionBudget resources to API v1
 - [need before EKS 1.25] batch/v1beta1 CronJob is deprecated in v1.21+, unavailable in v1.25+; use batch/v1 CronJob
+- PGO monitoring resources - handle secondary region
 
 _Changes:_
 
@@ -63,7 +64,10 @@ _Changes:_
 - [X] PDO-4983 Index lifecycle error: illegal_argument_exception: policy [ping-2-day-retention] does not exist
 - [X] PDO-4986 Add PA-WAS in customer-hub
 - [X] PDO-4997 Update values.yaml in region and base path sync with env_vars file
+- [X] PDO-5034 PGO monitoring resources - handle secondary region
 - [X] PDO-5037 Update to replace deprecated topologyKey to topology.kubernetes.io/zone 
+
+
 
 ### 1.17.0.0
 
